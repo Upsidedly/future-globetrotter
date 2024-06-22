@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main {
+        max-width: 42em;
+        margin: 15 auto;
+        margin-top: 70px;
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+
+      a {
+        color: rgb(125, 140, 207);
+      }
+
+      a:visited {
+        color: rgb(148, 125, 207);
+      }
+
+      body {
+        line-height: 1.4;
+        font-size: 16px;
+        padding: 0 10px;
+        background: #1a1b23;
+        color: white;
+        margin: 50px auto;
+        max-width: 650px;
+      }
+
+      #showcases {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+      }
+
+      .showcase {
+        padding: 0.4rem;
+        background: #111217;
+      }
+
+      #showcases > a {
+        text-decoration: none;
+        color: white;
+      }
+
+      img {
+        width: 100%;
+      }
+
+            /* width */
+            ::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #111217;
+        border-radius: 10px;
+        transition-duration: 100ms;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #0a0a0d;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Swiss Alps</h1>
+      <p>
+        Along with the Swiss Plateau and the Swiss section of the Jura Mountains, the Alpine region of Switzerland—conventionally known as the Swiss Alps—represents a key natural feature of the nation. Comprising an area sometimes known as Central Alps, the Swiss Alps stretch over the Western and Eastern Alps. The southern ranges from the Mont Blanc massif to the Bernina massif are shared with other nations like France, Italy, Austria and Liechtenstein; the northern ranges from the Bernese Alps to the Appenzell Alps are totally in Switzerland.
+      </p>
+      <img src="../images/evan-qu-gmNfkl9YUM8-unsplash.jpg" alt="Matterhorn"/>
+      <img src="../images/steven-he-bKLEKeqxRNU-unsplash.jpg" alt="Grindelwald"/>
+      <p>
+        <sub><a href="/">Go back</a></sub>
+      </p>
+    </div>
+  </body>
+</html>
