@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main {
+        max-width: 42em;
+        margin: 15 auto;
+        margin-top: 70px;
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+
+      a {
+        color: rgb(125, 140, 207);
+      }
+
+      a:visited {
+        color: rgb(148, 125, 207);
+      }
+
+      body {
+        line-height: 1.4;
+        font-size: 16px;
+        padding: 0 10px;
+        background: #1a1b23;
+        color: white;
+        margin: 50px auto;
+        max-width: 650px;
+      }
+
+      #showcases {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+      }
+
+      .showcase {
+        padding: 0.4rem;
+        background: #111217;
+      }
+
+      #showcases > a {
+        text-decoration: none;
+        color: white;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      /* width */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #111217;
+        border-radius: 10px;
+        transition-duration: 100ms;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #0a0a0d;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Skaftafell</h1>
+      <p>
+        One of Iceland's most famous scenery, without exploring Skaftafell National Park, no trip to the island is whole. You will locate it about 330
+        kilometers from Reykjavik in southeast Iceland. Skaftafell was a national park unto itself before it was absorbed into the bigger Vatnajökull
+        National Park. Covering an area of over 4,817 km2 (2,484 square miles), this nature reserve is a huge wilderness area including mountains,
+        river valleys, glaciers and waterfalls today. Repeated eruptions of Öraefajökull volcano over thousands of years shaped Skaftafell. Glacial
+        rivers and flash floods slink over volcanic rock, carving out many valleys and gorges. Attempts to control and cultivate the land had little
+        success when Iceland was first inhabited. The 1362 Öræfajökull eruption destroyed the whole area, and later attempts at agricultural
+        development were routinely hampered by glacial flooding and ash fall from Grímsvötn volcano to the north.
+      </p>
+      <img src="../images/Skaftafell_View.jpg" alt="" />
+      <img src="../images/Skaftafell_Aerial_2023.jpg" alt="" />
+      <p>
+        <sub><a href="/">Go back</a></sub>
+      </p>
+    </div>
+  </body>
+</html>
